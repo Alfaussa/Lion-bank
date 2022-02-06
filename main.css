@@ -753,13 +753,14 @@ align-items: center;
  }
  .form__input:last-child {
    margin-right: 0;
-}
+}  
 .form__input::placeholder {
     color: #665;
 }
 .form__input--textarea {
     min-height: 232px;
     width: 100%;
+    resize: none;
 }
 .controls__elem {
     cursor: pointer;
